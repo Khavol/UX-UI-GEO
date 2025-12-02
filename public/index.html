@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geosol - Ingeniería y Tecnología</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-fixed-top glassmorphism" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="images/geosol-logo-icon.svg" alt="Geosol Icon" style="max-height: 40px;">
+                <img src="images/geosol-logo-text.svg" alt="Geosol Text" class="ml-2" style="max-height: 30px;">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="#inicio" class="navbar-item">Inicio</a>
+                <a href="#nosotros" class="navbar-item">Nosotros</a>
+                <a href="#servicios" class="navbar-item">Servicios</a>
+                <a href="#blog" class="navbar-item">Blog</a>
+                <a href="#contacto" class="navbar-item">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero is-fullheight-with-navbar hero-background">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-1 has-text-white fade-in-up">
+                    Innovación y Tecnología
+                </h1>
+                <h2 class="subtitle is-3 has-text-light fade-in-up delay-1">
+                    Ingeniería de confianza para el futuro
+                </h2>
+                <a href="#contacto" class="button is-danger is-large is-rounded fade-in-up delay-2">
+                    Contáctanos
+                </a>
+            </div>
+        </div>
+
+        <!-- Carousel in Hero (Optional per requirements: "Carrusel con servicios o imágenes de obra") -->
+        <div class="hero-foot pb-6">
+             <div class="container">
+                <div class="glide hero-carousel">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide box glass-card has-text-centered">
+                                <span class="icon is-large has-text-info"><i class="fas fa-hard-hat fa-2x"></i></span>
+                                <p class="mt-2">Ingeniería Civil</p>
+                            </li>
+                            <li class="glide__slide box glass-card has-text-centered">
+                                <span class="icon is-large has-text-info"><i class="fas fa-solar-panel fa-2x"></i></span>
+                                <p class="mt-2">Energías Renovables</p>
+                            </li>
+                            <li class="glide__slide box glass-card has-text-centered">
+                                <span class="icon is-large has-text-info"><i class="fas fa-drafting-compass fa-2x"></i></span>
+                                <p class="mt-2">Consultoría Técnica</p>
+                            </li>
+                             <li class="glide__slide box glass-card has-text-centered">
+                                <span class="icon is-large has-text-info"><i class="fas fa-tools fa-2x"></i></span>
+                                <p class="mt-2">Mantenimiento</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <section id="nosotros" class="section is-medium">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-6 scroll-reveal">
+                    <h2 class="title is-2 has-text-primary">Nuestra Historia</h2>
+                    <p class="is-size-5 has-text-grey-dark mb-4">
+                        Geosol nació con la visión de transformar el sector de la ingeniería mediante soluciones innovadoras y sostenibles. Con años de experiencia, hemos construido una reputación basada en la confianza y la excelencia técnica.
+                    </p>
+                    <div class="content">
+                        <blockquote>
+                            "Nuestra misión es construir un futuro más sólido a través de la ingeniería de precisión."
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="column is-6 scroll-reveal">
+                     <!-- Timeline -->
+                     <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker is-primary"></div>
+                            <div class="timeline-content">
+                                <p class="heading">2010</p>
+                                <p>Fundación de Geosol</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker is-info"></div>
+                            <div class="timeline-content">
+                                <p class="heading">2015</p>
+                                <p>Expansión Nacional</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker is-warning"></div>
+                            <div class="timeline-content">
+                                <p class="heading">2023</p>
+                                <p>Innovación Tecnológica</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Section -->
+            <div class="mt-6">
+                <h3 class="title is-3 has-text-centered mb-6 scroll-reveal">Nuestro Equipo</h3>
+                <div class="columns">
+                    <div class="column is-4 scroll-reveal">
+                        <div class="card team-card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://picsum.photos/id/1005/600/450" alt="Miembro del equipo">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">Juan Pérez</p>
+                                <p class="subtitle is-6">CEO & Fundador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4 scroll-reveal delay-1">
+                        <div class="card team-card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://picsum.photos/id/1011/600/450" alt="Miembro del equipo">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">Ana Gómez</p>
+                                <p class="subtitle is-6">Directora de Proyectos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4 scroll-reveal delay-2">
+                         <div class="card team-card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://picsum.photos/id/1025/600/450" alt="Miembro del equipo">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">Carlos Ruiz</p>
+                                <p class="subtitle is-6">Ingeniero Jefe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="section is-medium has-background-light">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered has-text-primary mb-6 scroll-reveal">Nuestros Servicios</h2>
+
+            <div class="columns is-multiline">
+                <div class="column is-4 scroll-reveal">
+                    <div class="card service-card">
+                        <div class="card-content has-text-centered">
+                            <span class="icon is-large has-text-info mb-4">
+                                <i class="fas fa-building fa-3x"></i>
+                            </span>
+                            <p class="title is-4">Infraestructura</p>
+                            <p class="subtitle is-6">Diseño y construcción de obras civiles modernas y eficientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal delay-1">
+                    <div class="card service-card">
+                        <div class="card-content has-text-centered">
+                            <span class="icon is-large has-text-info mb-4">
+                                <i class="fas fa-leaf fa-3x"></i>
+                            </span>
+                            <p class="title is-4">Medio Ambiente</p>
+                            <p class="subtitle is-6">Estudios de impacto ambiental y soluciones sostenibles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal delay-2">
+                    <div class="card service-card">
+                        <div class="card-content has-text-centered">
+                            <span class="icon is-large has-text-info mb-4">
+                                <i class="fas fa-chart-line fa-3x"></i>
+                            </span>
+                            <p class="title is-4">Consultoría</p>
+                            <p class="subtitle is-6">Asesoramiento técnico especializado para grandes proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal">
+                    <div class="card service-card">
+                        <div class="card-content has-text-centered">
+                            <span class="icon is-large has-text-info mb-4">
+                                <i class="fas fa-bolt fa-3x"></i>
+                            </span>
+                            <p class="title is-4">Energía</p>
+                            <p class="subtitle is-6">Implementación de sistemas de energía renovable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal delay-1">
+                    <div class="card service-card">
+                        <div class="card-content has-text-centered">
+                            <span class="icon is-large has-text-info mb-4">
+                                <i class="fas fa-water fa-3x"></i>
+                            </span>
+                            <p class="title is-4">Hidráulica</p>
+                            <p class="subtitle is-6">Gestión y tratamiento de recursos hídricos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal delay-2">
+                    <div class="card service-card">
+                        <div class="card-content has-text-centered">
+                            <span class="icon is-large has-text-info mb-4">
+                                <i class="fas fa-search-location fa-3x"></i>
+                            </span>
+                            <p class="title is-4">Topografía</p>
+                            <p class="subtitle is-6">Estudios topográficos de alta precisión.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Por qué elegirnos -->
+            <div class="box glass-card mt-6 p-6 scroll-reveal">
+                <h3 class="title is-3 has-text-centered has-text-white">¿Por qué elegirnos?</h3>
+                <div class="columns has-text-white has-text-centered">
+                    <div class="column">
+                        <p class="is-size-2 has-text-weight-bold">100%</p>
+                        <p>Compromiso</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-size-2 has-text-weight-bold">+150</p>
+                        <p>Proyectos Exitosos</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-size-2 has-text-weight-bold">24/7</p>
+                        <p>Soporte Técnico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered has-text-primary mb-6 scroll-reveal">Blog & Novedades</h2>
+            <div class="columns">
+                <div class="column is-4 scroll-reveal">
+                    <div class="card blog-card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://picsum.photos/id/10/600/300" alt="Blog Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-5">Innovaciones en Energía Solar</p>
+                                    <p class="subtitle is-6 is-size-7">12 Oct 2023</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Descubre cómo las nuevas tecnologías están revolucionando el sector...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal delay-1">
+                    <div class="card blog-card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://picsum.photos/id/16/600/300" alt="Blog Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-5">Ingeniería Sostenible</p>
+                                    <p class="subtitle is-6 is-size-7">05 Nov 2023</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                La sostenibilidad es clave en nuestros proyectos de infraestructura...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 scroll-reveal delay-2">
+                    <div class="card blog-card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://picsum.photos/id/20/600/300" alt="Blog Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-5">Seguridad en Obras</p>
+                                    <p class="subtitle is-6 is-size-7">20 Nov 2023</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Protocolos avanzados para garantizar la seguridad de nuestros trabajadores...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section is-medium has-background-primary-dark">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-5 has-text-white scroll-reveal">
+                    <h2 class="title is-2 has-text-white">Contáctanos</h2>
+                    <p class="mb-5">Estamos listos para hacer realidad tu próximo proyecto. Escríbenos.</p>
+
+                    <div class="block">
+                        <span class="icon-text">
+                            <span class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            <span>Calle Principal 123, Ciudad Innovación</span>
+                        </span>
+                    </div>
+                    <div class="block">
+                        <span class="icon-text">
+                            <span class="icon">
+                                <i class="fas fa-phone"></i>
+                            </span>
+                            <span>+123 456 7890</span>
+                        </span>
+                    </div>
+                    <div class="block">
+                        <span class="icon-text">
+                            <span class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span>contacto@geosol.com</span>
+                        </span>
+                    </div>
+
+                    <div class="buttons mt-5">
+                        <button class="button is-white is-outlined is-rounded">WhatsApp</button>
+                        <button class="button is-white is-outlined is-rounded">Llamar</button>
+                    </div>
+                </div>
+                <div class="column is-7 scroll-reveal delay-1">
+                    <form class="box glass-card" style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255,255,255,0.2);">
+                        <div class="field">
+                            <label class="label has-text-white">Nombre</label>
+                            <div class="control">
+                                <input class="input is-rounded" type="text" placeholder="Tu nombre">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label has-text-white">Email</label>
+                            <div class="control">
+                                <input class="input is-rounded" type="email" placeholder="tucorreo@ejemplo.com">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label has-text-white">Mensaje</label>
+                            <div class="control">
+                                <textarea class="textarea is-rounded" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <button class="button is-danger is-fullwidth is-rounded">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer has-background-dark has-text-white">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Geosol</strong> by <a href="#" class="has-text-grey-light">Geosol Engineering</a>.
+                El código fuente tiene licencia MIT.
+            </p>
+            <p>
+                &copy; 2023 Geosol. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/glide.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
