@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #0339A6;
+  --secondary-color: #0468BF;
+  --accent-color: #79ACD9;
+  --action-alert-color: #D91A1A;
+  --neutral-background-color: #F2F2F2;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCX6QBUyTdjWUuO_bqQePxj6U-lF1Y3c0pQgJsdlLvC1R6Uoe7p7naRwZUqU7WCW2we5z3gtR1CQBvO_3aYBDoScCZ3A1x5RdmhCsW7kuqPHTfH3E8DynMUtQ4JgpVWahfXkKxyKoaZWJPxC4AfWL3Epmlx-a8qJ3l_JtcNeQZ2HDM_V8n6LpdNY93ATVA20O73HsF0zhzAS5fdANFYtISCp9uKt42MIP8vetZ4__uZ0qnPNf3UtNkMP_VpuBjEu4PlqQpEwAYgsBqA") center/cover no-repeat;
+}
+
+.navbar-burger {
+  color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: var(--primary-color);
+  }
+  .navbar-item {
+    color: #fff;
+  }
+  .navbar-item:hover {
+    background-color: var(--secondary-color);
+  }
+}
+
+#services .card {
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#services .card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-color: var(--primary-color);
+}
+
+#laboratory {
+  background-color: var(--neutral-background-color);
+}
+
+#certifications {
+  background-color: #fff;
+}
+
+#clients .glide__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clients .glide__slide img {
+  max-height: 80px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+#clients .glide__slide img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+#blog .card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#blog .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+#contact {
+  background-color: var(--neutral-background-color);
+}
+
+.footer {
+  background-color: #363636;
+  color: #fff;
+}
+
+.footer .title, .footer .subtitle {
+  color: #fff;
+}
+
+.footer a {
+  color: #dbdbdb;
+}
+
+.footer a:hover {
+  color: var(--primary-color);
+}
+
+.section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
