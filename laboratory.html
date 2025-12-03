@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sección de Laboratorio GEOSOL</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#043daf",
+              "background-light": "#f5f6f8",
+              "background-dark": "#0f1623",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f1f5] dark:border-b-white/10 px-10 py-3 bg-white dark:bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-4 text-[#111318] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-[#111318] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">GEOSOL</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-[#111318] dark:text-white/80 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal" href="index.html">Inicio</a>
+<a class="text-[#111318] dark:text-white/80 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal" href="services.html">Servicios</a>
+<a class="text-primary dark:text-white text-sm font-medium leading-normal" href="laboratory.html">Laboratorio</a>
+<a class="text-[#111318] dark:text-white/80 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal" href="clients.html">Proyectos</a>
+<a class="text-[#111318] dark:text-white/80 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal" href="clients.html">Sobre Nosotros</a>
+<a class="text-[#111318] dark:text-white/80 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal" href="contact.html">Contacto</a>
+</div>
+<button class="hidden md:flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90">
+<span class="truncate">Solicitar Presupuesto</span>
+</button>
+<button class="md:hidden flex items-center justify-center text-gray-800 dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-1 px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16">
+<div class="mx-auto max-w-5xl">
+<div class="@container">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-8 text-center" data-alt="A modern engineering laboratory with advanced equipment" style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("images/lab-hero-background.jpg");'>
+<div class="flex flex-col gap-4">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                    Laboratorio de Geotecnia y Materiales
+                                </h1>
+<h2 class="text-white/90 text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal @[480px]:leading-normal max-w-2xl mx-auto">
+                                    Precisión y Fiabilidad para sus Proyectos. Ofrecemos análisis exhaustivos para garantizar la seguridad y calidad de su infraestructura.
+                                </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90">
+<span class="truncate">Contactar con el Laboratorio</span>
+</button>
+</div>
+</div>
+<section class="py-16 sm:py-20">
+<div class="text-center max-w-3xl mx-auto">
+<h2 class="text-[#111318] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em]">Servicios del Laboratorio</h2>
+<p class="text-gray-600 dark:text-white/70 text-lg font-normal leading-normal mt-4">
+                                Nuestro laboratorio está equipado con tecnología de punta para realizar una amplia gama de ensayos y análisis geotécnicos, asegurando resultados precisos y confiables para cada proyecto.
+                            </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+<div class="flex flex-col gap-3 p-6 bg-white dark:bg-background-dark rounded-xl border border-gray-200 dark:border-white/10">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg mb-2" data-alt="Soil samples being tested in a lab environment" style='background-image: url("images/lab-service-soils.jpg");'></div>
+<div>
+<p class="text-[#111318] dark:text-white text-base font-medium leading-normal">Ensayos de Suelos</p>
+<p class="text-gray-500 dark:text-white/60 text-sm font-normal leading-normal mt-1">Clasificación, compactación, y resistencia.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 p-6 bg-white dark:bg-background-dark rounded-xl border border-gray-200 dark:border-white/10">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg mb-2" data-alt="Close-up of a rock core sample being analyzed" style='background-image: url("images/lab-service-rocks.jpg");'></div>
+<div>
+<p class="text-[#111318] dark:text-white text-base font-medium leading-normal">Análisis de Rocas</p>
+<p class="text-gray-500 dark:text-white/60 text-sm font-normal leading-normal mt-1">Propiedades físicas y mecánicas.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 p-6 bg-white dark:bg-background-dark rounded-xl border border-gray-200 dark:border-white/10">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg mb-2" data-alt="Concrete cylinder being tested for compressive strength" style='background-image: url("images/lab-service-quality-control.jpg");'></div>
+<div>
+<p class="text-[#111318] dark:text-white text-base font-medium leading-normal">Control de Calidad</p>
+<p class="text-gray-500 dark:text-white/60 text-sm font-normal leading-normal mt-1">Ensayos de hormigón y materiales.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 p-6 bg-white dark:bg-background-dark rounded-xl border border-gray-200 dark:border-white/10">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg mb-2" data-alt="Sample of asphalt being prepared for testing" style='background-image: url("images/lab-service-asphalt.jpg");'></div>
+<div>
+<p class="text-[#111318] dark:text-white text-base font-medium leading-normal">Pruebas de Asfalto</p>
+<p class="text-gray-500 dark:text-white/60 text-sm font-normal leading-normal mt-1">Caracterización y diseño de mezclas.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-20">
+<div class="text-center max-w-3xl mx-auto">
+<h2 class="text-[#111318] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em]">Nuestro Proceso de Trabajo</h2>
+<p class="text-gray-600 dark:text-white/70 text-lg font-normal leading-normal mt-4">
+                                Un enfoque metodológico y transparente garantiza la máxima calidad en cada etapa, desde la recepción de la muestra hasta la entrega del informe final.
+                            </p>
+</div>
+<div class="relative mt-12">
+<div aria-hidden="true" class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 dark:bg-white/10 hidden md:block"></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+<div class="flex flex-col items-center text-center">
+<div class="flex items-center justify-center size-16 bg-primary/10 dark:bg-primary/20 rounded-full border-4 border-background-light dark:border-background-dark text-primary dark:text-white mb-4">
+<span class="material-symbols-outlined text-3xl">science</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white">1. Recepción y Registro</h3>
+<p class="text-gray-500 dark:text-white/60 mt-2 text-sm">Las muestras son cuidadosamente recibidas, codificadas y registradas en nuestro sistema para una trazabilidad completa.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="flex items-center justify-center size-16 bg-primary/10 dark:bg-primary/20 rounded-full border-4 border-background-light dark:border-background-dark text-primary dark:text-white mb-4">
+<span class="material-symbols-outlined text-3xl">biotech</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white">2. Análisis y Ensayo</h3>
+<p class="text-gray-500 dark:text-white/60 mt-2 text-sm">Nuestros técnicos especializados realizan los ensayos pertinentes utilizando equipos calibrados y siguiendo normativas estrictas.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="flex items-center justify-center size-16 bg-primary/10 dark:bg-primary/20 rounded-full border-4 border-background-light dark:border-background-dark text-primary dark:text-white mb-4">
+<span class="material-symbols-outlined text-3xl">summarize</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white">3. Informe de Resultados</h3>
+<p class="text-gray-500 dark:text-white/60 mt-2 text-sm">Elaboramos un informe detallado con los resultados, conclusiones y recomendaciones técnicas, que es revisado y validado.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+</div>
+</div>
+</body></html>
